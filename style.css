@@ -1,0 +1,53 @@
+body {
+    background-color: #FFFFFF;
+}
+
+
+.grid-parent {
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.grid-child {
+    padding: 1rem;
+}
+
+.linkDiv {
+    background-color: red;
+    color: #FF0000;
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.linkDiv a:link {
+    color: #808080;
+}
+
+.linkDiv a:hover {
+    color: #C0C0C0;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.imageDiv {
+    margin: auto;
+    width: 400px;
+    padding: 2%;
+}
+
+.imageDiv img {
+    width: 400px;
+}
+
+a:link {
+    color: #FF0000;
+}
