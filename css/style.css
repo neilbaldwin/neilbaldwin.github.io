@@ -1,7 +1,9 @@
 @import "reset.css";
 
 body {
-    background-color: #FFFFFF;
+    margin-top: 5%;
+    background-color: #FF0000;
+    background-image: url(../images/bg01.jpg);
     padding: 0;
 }
 
@@ -20,11 +22,12 @@ body {
 .Content {
     display: inline-block;
     vertical-align: middle;
+    padding:0;
 }
 
 .grid-parent {
     display: grid;
-    width: 450px;
+    width: 550px;
     padding: 0;
     margin: auto;
     grid-template-columns: 1fr 1fr
