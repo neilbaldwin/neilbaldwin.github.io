@@ -3,8 +3,9 @@ body {
 }
 
 
+
 .grid-parent {
-    padding: 20%;
+    padding: 5%;
     padding-top: 0;
     padding-bottom: 0;
     display: grid;
@@ -15,32 +16,24 @@ body {
     padding: 0rem;
 }
 
-.linkDiv {
-    color: #FF0000;
-    width: 70%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.linkDiv a:link {
-    color: #808080;
-}
-
-.linkDiv a:hover {
-    color: #C0C0C0;
-}
 
 .center {
   margin: auto;
-  width: 50%;
+  width: 95%;
   border: 3px solid green;
   padding: 10px;
 }
 
+.centerImage {
+    margin: auto;
+    padding: 10px;
+    border: 3px solid red;
+}
+
 .imageDiv {
     margin: auto;
-    width: 400px;
-    padding: 2%;
+    width: 50%;
+    padding: 10px;
 }
 
 .imageDiv img {

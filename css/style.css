@@ -1,0 +1,36 @@
+@import "reset.css";
+
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.Container {
+    text-align: center;
+/*    border: 3px solid green; */
+}
+
+    .Container:before {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.Content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.grid-parent {
+    display: grid;
+    width: 450px;
+    padding: 0;
+    margin: auto;
+    grid-template-columns: 1fr 1fr
+}
+
+.grid-child {
+    padding: 1rem;
+    /* border: 3px solid red; */
+}
