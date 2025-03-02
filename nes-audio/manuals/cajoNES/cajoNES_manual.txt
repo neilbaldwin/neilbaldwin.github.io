@@ -1,0 +1,229 @@
+"cajoNES- the NES drummer" by Neil Baldwin
+-----------------------------------------
+
+Here we go again!
+
+"cajoNES" is a 16-step, 4 voice drum synthesiser for the NES. It has:
+
+- ultra high-speed synthesis for sounds like you done never heard
+- tempo control
+- swing control
+- repeat control on each step
+- 'next step' control for non-linear playback and pattern length control
+- randomise single cells, selected cells or whole steps
+- copy-n-paste of cells
+- no saving whatsoever!
+
+SEE
+  Down the left side are the Step Numbers
+  Each horizontal step is made up of 14 parameters
+  Across the top are the synthesis parameter IDs, see below for explanation
+  At the bottom is the Speed, Swing amount and mute status for each voice
+
+PLAY
+  + Tap [START] to toggle play/pause
+  + Hold [SELECT] and tap [START] to start playback from the step your cursor
+    is on. If already playing, play will jump to the cursor position at then
+    end of the current step (thus keeping in time).
+
+MUTE
+  + Hold [SELECT] and tap [U/D/L/R] to mute/unmute A/B/C/D
+
+SPEED
+  + Hold [START] and tap [U/D] to change playback speed
+
+SWING
+  + Hold [START] and tap [L/R] to change swing
+
+MOVE
+  + [U/D/L/R] to move around
+
+EDIT
+  + Hold [B] and tap/hold [L/R] to change value by +/-1 or 
+    tap/hold [U/D] to change value by +/-10 (16)
+
+PAINT
+  + Tap [B] to 'paint' last edited value
+
+SELECTION
+  + Hold [A] and tap [L/R] to set copy range from cursor position
+    You can only select cells on the current row
+
+CLEAR
+  + Hold [A] and then tap [B] to clear a value *
+  + To clear a selection:
+    Hold [A] and tap [L/R] to define selection, while still holding
+    [A], tap [B]
+
+COPY
+  + Hold [A] and tap [U] to copy current selection to copy buffer
+
+PASTE
+  + Hold [A] and tap [D] to paste copy buffer at current position
+
+RANDOMISE
+  + On any column other than CTRL:
+    Hold [B] and tap [SELECT] to randomise row (except CTRL)
+    Hold [A] and tap [SELECT] to randomise single value
+  + On CTRL column:
+    Hold [B] and tap [SELECT] to randomise repeat count (Rx)
+    Hold [A] and tap [SELECT] to randomise next step (xN)
+  + To randomise a selection:
+    Hold [A] and tap [L/R] to define selection and while still holding
+    [A], tap [SELECT]
+
+The reason randomise is different for the CTRL column is so that you
+don't inadvertently randomise the repeat/next step value which could
+really mess up the flow of your pattern.
+
+BONUS STAGE!
+
+  Special FX
+
+  + Hold [START] + [SELECT] then tap [U] to repeat the step that
+    the cursor is on. You can keep increasing the tempo while the step is
+    repeating by tapping/holding [U] and decreases the repeat tempo by
+    tapping/holding [D]
+
+  + Hold [START] + [SELECT] then tap/hold [L] to retard the synthesis
+    engine temporarily. Tap/hold [R] to increase it again. Letting go
+    of the buttons restores the synthesis speed
+
+    The two effects can be combined.
+
+    Letting go of [START]+[SELECT] restores the tempo and synthesis rate
+    and also starts playback from the last step you forced playback from 
+    (by holding [SELECT] and tapping [START] - see the 'PLAY' section 
+    above). This way you can create your FX fill and have the pattern 
+    start at the 'beginning' when you let go of the FX controls.
+  
+
+PARAMETER EXPLANATION
+
+Voice A (Square) Parameters:
+----------------------------
+
+IPA: Initial Pitch for Square A
+     00 - 7F = one shot (when sweeping pitch)
+     80 - FF = looping (when sweeping pitch)
+
+MDA: Pitch Mod Depth for Square A
+     00 = no sweep
+     01 to 7F = sweep down, slow to fast (*2)
+     80 = no sweep
+     FF to 81 = sweep up, slow to fast (*2)
+     If in one-shot mode, sound will be cut off when upper/lower limit reached
+     If in looping mode, sweep will be constantly cycled for duration of step
+
+MSA: Pitch Sweep Speed for Square A
+     00 = no sweep
+     01 to FF = sweep speed, slowest to fastest
+
+EVA: Amplitude and Decay for Square A
+     00 = don't trigger envelope for this step
+     xA = initial amplitude, 0 to F
+     Dx = decay speed, 0 to F (slow to fast)
+
+Voice B (Square) Parameters:
+----------------------------
+
+IPB: Initial note for Square B, operation same as for IPA
+MDB: Pitch Sweep Depth for Square B, same as MDA
+MSB: Pitch Sweep Speed for Square B, same as MSA
+EVB: Amplitude and Decay for Square B, same as EVA
+
+Voice C (Triangle) Parameters:
+----------------------------
+
+IPC: Initial note for Triangle
+     00 = no note on this step*
+     01 - 7F = one shot (when sweeping pitch)
+     80 = no note on this step*
+     81 - FF = looping (when sweeping pitch)
+
+MDC: Pitch Sweep Depth for Triangle, same as MDA/MDB
+MSC: Pitch Sweep Speed for Triangle, same as MSA/MSB
+
+*Because the Triangle voice (C) has no volume control, specifying
+no note (00) for IPC has a similar effect to specifying 00 for the
+envelope (EVx) for the other voices.
+
+
+Voice D (Noise) Parameters:
+----------------------------
+
+MDD: Pitch and modulation for Noise
+     00-0F = normal clock pitch
+     10-1F = slow clock pitch
+     20-2F = normal clock pitch + 1 pitch toggle
+     30-3F = slow clock pitch + 1 pitch toggle
+     40-4F = normal clock pitch + 2 pitch toggle
+     50-5F = slow clock pitch + 2 pitch toggle
+     and so on...
+
+EVD: Amplitude and Decay for Noise, same as EVA/EVB
+
+CTRL: Step Control
+      00 = play this step then move to next
+      Sx = step repeat count
+           1-F = repeat this step for that number of times
+      xN = next step after this one, 0-F
+
+
+
+------------------------------------------------------------------------
+
+
+"cajoNES DELUXE!"
+
+In addition to the instructions for "cajoNES", the "DELUXE!" version has
+several enhancements but requires an emulator or cartridge that supports
+8K battery/save RAM
+
+You'll need an emulator that supports battery RAM - I use Nestopia (OSX)
+
+The ROM name is 'cajoNES+.nes'
+
+"DELUXE!" features:
+
++ a menu to LOAD and SAVE patterns into 8 save slots
++ in the same menu you can CLEAR any of the 8 save slots
++ button combos for quick LOAD or SAVE of the current pattern
++ extra screen info relating to these functions
+
+Saving a Pattern to a slot will save the Pattern step data, the
+Pattern Speed, the Swing Amount, the channel Mute status and 
+the Start Step.
+
+SCREEN
+  An exclamation mark (!) will appear next to the Pattern number if
+  it has not been saved in it's current state.
+
+LOAD
+  To 'quick load' the current pattern, hold [B] and tap [START]
+
+SAVE
+  To 'quick save' the current pattern, hold [A] and tap [START]
+  The screen will flash to indicate saving took place
+
+LOAD/SAVE/CLEAR SLOT
+  To access this sub-menu, hold tap [SELECT]
+  In the menu:
+    tap/hold [LEFT/RIGHT] to select the save slot
+    tap/hold [UP/DOWN] to select the function
+    tap [B] to cancel
+    tap [A] to select the function
+  
+  When selecting a save slot, bright numbers already contain data while
+  grey numbers are considered 'empty'
+
+
+
+                 
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+@import "reset.css";
+
+body {
+    margin-top: 5%;
+    background-color: #000000;
+    /* background-image: url(../images/bg01.jpg); */
+    background: url(../images/bg01.jpg);
+    padding: 0;
+}
+
+.Container {
+    text-align: center;
+/*    border: 3px solid green; */
+}
+
+    .Container:before {
+        content: '';
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.Content {
+    display: inline-block;
+    vertical-align: middle;
+    padding:0;
+}
+
+.grid-parent {
+    display: grid;
+    width: 550px;
+    padding: 0;
+    margin: auto;
+    grid-template-columns: 1fr 1fr
+}
+
+.grid-child {
+    padding: 1rem;
+    /* border: 3px solid red; */
+}
