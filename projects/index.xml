@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>USE HEARING PROTECTION</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content on USE HEARING PROTECTION</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>neil.baldwin@mac.com (Neil Baldwin)</managingEditor>
+    <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
+    <copyright>(C) Neil Baldwin</copyright>
+    <lastBuildDate>Sun, 09 Mar 2025 12:56:54 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VOLDRED</title>
+      <link>http://localhost:1313/projects/voldred/</link>
+      <pubDate>Sun, 09 Mar 2025 12:56:54 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
+      <guid>http://localhost:1313/projects/voldred/</guid>
+      <description>&lt;h1 id=&#34;voldred&#34;&gt;VOLDRED&lt;/h1&gt;
+&lt;p&gt;An editor for Korg&amp;rsquo;s Volca Drum created in Touch OSC.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="voldred">VOLDRED</h1>
+<p>An editor for Korg&rsquo;s Volca Drum created in Touch OSC.</p>
+<figure><img src="/projects/voldred/images/VOLDRED.png">
+</figure>
+
+<h2 id="introduction">Introduction</h2>
+<p>Duis occaecat ut laboris cillum ea consectetur cupidatat reprehenderit dolore ipsum eiusmod voluptate tempor. Aliquip in consectetur exercitation veniam minim officia magna veniam. Do ut do exercitation officia sit esse. Eiusmod culpa culpa nostrud labore. Id fugiat ex aute exercitation.</p>
+<h3 id="paragraph-1">Paragraph 1</h3>
+<p>Sunt laboris duis culpa et enim dolor velit magna aliquip est eu. Tempor consequat consectetur excepteur aute aute est adipisicing quis. Commodo ad laborum dolore qui commodo mollit id incididunt reprehenderit laboris irure ipsum ea veniam. Labore nisi deserunt duis et enim officia. Tempor nostrud minim exercitation non officia aliqua ut esse id ipsum id quis minim. Nisi culpa cupidatat nisi nulla fugiat nulla proident. Cupidatat nulla culpa cillum nisi enim reprehenderit duis aliqua reprehenderit aliqua culpa qui.</p>
+<h3 id="paragraph-2">Paragraph 2</h3>
+<p>Proident aliqua non occaecat excepteur sit ut aliquip. Voluptate cillum proident ipsum sunt consectetur occaecat ipsum ex veniam tempor. Adipisicing ullamco non voluptate incididunt adipisicing qui irure aute exercitation.</p>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
