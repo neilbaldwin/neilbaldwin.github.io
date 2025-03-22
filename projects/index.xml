@@ -17,9 +17,9 @@
       <pubDate>Sun, 09 Mar 2025 12:56:54 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
       <guid>http://localhost:1313/projects/voldred/</guid>
       <description>&lt;h1 id=&#34;voldred&#34;&gt;VOLDRED&lt;/h1&gt;
-&lt;p&gt;An editor for Korg&amp;rsquo;s Volca Drum created in Touch OSC.&lt;/p&gt;</description>
+&lt;p&gt;An editor for Volca Drum created in Touch OSC.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="voldred">VOLDRED</h1>
-<p>An editor for Korg&rsquo;s Volca Drum created in Touch OSC.</p>
+<p>An editor for Volca Drum created in Touch OSC.</p>
 <figure><img src="/projects/voldred/images/VOLDRED.png">
 </figure>
 
