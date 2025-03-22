@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>https://neilbaldwin.github.io/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>neil.baldwin@mac.com (Neil Baldwin)</managingEditor>
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
-    <atom:link href="https://neilbaldwin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
