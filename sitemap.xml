@@ -2,12 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://neilbaldwin.github.io/projects/voldred/</loc>
+    <lastmod>2025-03-09T12:56:54+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/projects/2020r/</loc>
+    <lastmod>2025-03-23T13:27:29+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/projects/mmmsegui/</loc>
+    <lastmod>2025-03-23T13:38:56+00:00</lastmod>
+  </url><url>
     <loc>https://neilbaldwin.github.io/projects/</loc>
     <lastmod>2025-03-23T13:38:56+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/tags/blog/</loc>
+    <lastmod>2025-03-09T12:48:00+00:00</lastmod>
   </url><url>
     <loc>https://neilbaldwin.github.io/blog/</loc>
     <lastmod>2025-03-09T12:48:00+00:00</lastmod>
   </url><url>
+    <loc>https://neilbaldwin.github.io/post02/</loc>
+    <lastmod>2025-03-09T12:48:00+00:00</lastmod>
+  </url><url>
     <loc>https://neilbaldwin.github.io/tags/</loc>
+    <lastmod>2025-03-09T12:48:00+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/post01/</loc>
+    <lastmod>2025-03-07T18:34:59+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/</loc>
+    <lastmod>2025-03-07T17:57:31+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/tags/jsui/</loc>
+    <lastmod>2024-03-14T07:38:13+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/tags/max/</loc>
+    <lastmod>2024-03-14T07:38:13+00:00</lastmod>
+  </url><url>
+    <loc>https://neilbaldwin.github.io/old_post/</loc>
+    <lastmod>2024-03-14T07:38:13+00:00</lastmod>
   </url>
 </urlset>

@@ -9,6 +9,31 @@
     <managingEditor>neil.baldwin@mac.com (Neil Baldwin)</managingEditor>
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
+    <lastBuildDate>Sun, 09 Mar 2025 12:48:00 +0000</lastBuildDate>
     <atom:link href="https://neilbaldwin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://neilbaldwin.github.io/tags/blog/</link>
+      <pubDate>Sun, 09 Mar 2025 12:48:00 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
+      <guid>https://neilbaldwin.github.io/tags/blog/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>JSUI</title>
+      <link>https://neilbaldwin.github.io/tags/jsui/</link>
+      <pubDate>Thu, 14 Mar 2024 07:38:13 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
+      <guid>https://neilbaldwin.github.io/tags/jsui/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>Max</title>
+      <link>https://neilbaldwin.github.io/tags/max/</link>
+      <pubDate>Thu, 14 Mar 2024 07:38:13 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
+      <guid>https://neilbaldwin.github.io/tags/max/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
   </channel>
 </rss>
