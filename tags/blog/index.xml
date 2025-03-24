@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>https://neilbaldwin.github.io/tags/blog/</link>
+    <link>http://localhost:1313/tags/blog/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
     <lastBuildDate>Sun, 09 Mar 2025 12:48:00 +0000</lastBuildDate>
-    <atom:link href="https://neilbaldwin.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Post02</title>
-      <link>https://neilbaldwin.github.io/post02/</link>
+      <link>http://localhost:1313/post02/</link>
       <pubDate>Sun, 09 Mar 2025 12:48:00 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/post02/</guid>
+      <guid>http://localhost:1313/post02/</guid>
       <description>&lt;h1 id=&#34;blog-post-02&#34;&gt;Blog Post 02&lt;/h1&gt;
 &lt;p&gt;This is blog post 02.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="blog-post-02">Blog Post 02</h1>

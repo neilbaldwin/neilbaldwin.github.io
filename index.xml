@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>https://neilbaldwin.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
     <lastBuildDate>Fri, 07 Mar 2025 17:57:31 +0000</lastBuildDate>
-    <atom:link href="https://neilbaldwin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VOLDRED</title>
-      <link>https://neilbaldwin.github.io/projects/voldred/</link>
+      <link>http://localhost:1313/projects/voldred/</link>
       <pubDate>Sun, 09 Mar 2025 12:56:54 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/projects/voldred/</guid>
+      <guid>http://localhost:1313/projects/voldred/</guid>
       <description>&lt;h1 id=&#34;voldred&#34;&gt;VOLDRED&lt;/h1&gt;
 &lt;p&gt;An editor for Volca Drum created in Touch OSC&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="voldred">VOLDRED</h1>
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>2020R</title>
-      <link>https://neilbaldwin.github.io/projects/2020r/</link>
+      <link>http://localhost:1313/projects/2020r/</link>
       <pubDate>Sun, 23 Mar 2025 13:27:29 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/projects/2020r/</guid>
+      <guid>http://localhost:1313/projects/2020r/</guid>
       <description>&lt;h1 id=&#34;2020-r&#34;&gt;2020-R&lt;/h1&gt;
 &lt;p&gt;An randomisation editor for 20202 created in Touch OSC.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="2020-r">2020-R</h1>
@@ -44,9 +44,9 @@
     </item>
     <item>
       <title>MMMSEGUI</title>
-      <link>https://neilbaldwin.github.io/projects/mmmsegui/</link>
+      <link>http://localhost:1313/projects/mmmsegui/</link>
       <pubDate>Sun, 23 Mar 2025 13:38:56 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/projects/mmmsegui/</guid>
+      <guid>http://localhost:1313/projects/mmmsegui/</guid>
       <description>&lt;h1 id=&#34;mmmsegui&#34;&gt;MMMSEGUI&lt;/h1&gt;
 &lt;p&gt;MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&amp;rsquo;s Max platform.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="mmmsegui">MMMSEGUI</h1>
@@ -594,9 +594,9 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
     </item>
     <item>
       <title>Post02</title>
-      <link>https://neilbaldwin.github.io/post02/</link>
+      <link>http://localhost:1313/post02/</link>
       <pubDate>Sun, 09 Mar 2025 12:48:00 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/post02/</guid>
+      <guid>http://localhost:1313/post02/</guid>
       <description>&lt;h1 id=&#34;blog-post-02&#34;&gt;Blog Post 02&lt;/h1&gt;
 &lt;p&gt;This is blog post 02.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="blog-post-02">Blog Post 02</h1>
@@ -605,9 +605,9 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
     </item>
     <item>
       <title>Post01</title>
-      <link>https://neilbaldwin.github.io/post01/</link>
+      <link>http://localhost:1313/post01/</link>
       <pubDate>Fri, 07 Mar 2025 18:34:59 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/post01/</guid>
+      <guid>http://localhost:1313/post01/</guid>
       <description>&lt;h1 id=&#34;blog-post-01&#34;&gt;Blog Post 01&lt;/h1&gt;
 &lt;p&gt;This is blog post 01.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="blog-post-01">Blog Post 01</h1>
@@ -616,9 +616,9 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
     </item>
     <item>
       <title>Old Blog Post</title>
-      <link>https://neilbaldwin.github.io/old_post/</link>
+      <link>http://localhost:1313/old_post/</link>
       <pubDate>Thu, 14 Mar 2024 07:38:13 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/old_post/</guid>
+      <guid>http://localhost:1313/old_post/</guid>
       <description>&lt;h1 id=&#34;old-blog-post&#34;&gt;Old Blog Post&lt;/h1&gt;
 &lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;
 &lt;p&gt;Consectetur ad incididunt elit mollit enim quis. Fugiat ex eiusmod magna dolore consectetur ad. Fugiat consectetur cupidatat amet ullamco sint pariatur esse consequat quis non tempor sunt occaecat. Excepteur excepteur voluptate nostrud sit nulla anim. Ex non pariatur commodo et enim quis irure est deserunt velit amet id sint magna. Ipsum eiusmod et eu tempor do fugiat consequat tempor occaecat.&lt;/p&gt;

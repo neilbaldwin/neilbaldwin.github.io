@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>https://neilbaldwin.github.io/tags/jsui/</link>
+    <link>http://localhost:1313/tags/jsui/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
     <lastBuildDate>Thu, 14 Mar 2024 07:38:13 +0000</lastBuildDate>
-    <atom:link href="https://neilbaldwin.github.io/tags/jsui/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/jsui/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Old Blog Post</title>
-      <link>https://neilbaldwin.github.io/old_post/</link>
+      <link>http://localhost:1313/old_post/</link>
       <pubDate>Thu, 14 Mar 2024 07:38:13 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/old_post/</guid>
+      <guid>http://localhost:1313/old_post/</guid>
       <description>&lt;h1 id=&#34;old-blog-post&#34;&gt;Old Blog Post&lt;/h1&gt;
 &lt;h2 id=&#34;section-1&#34;&gt;Section 1&lt;/h2&gt;
 &lt;p&gt;Consectetur ad incididunt elit mollit enim quis. Fugiat ex eiusmod magna dolore consectetur ad. Fugiat consectetur cupidatat amet ullamco sint pariatur esse consequat quis non tempor sunt occaecat. Excepteur excepteur voluptate nostrud sit nulla anim. Ex non pariatur commodo et enim quis irure est deserunt velit amet id sint magna. Ipsum eiusmod et eu tempor do fugiat consequat tempor occaecat.&lt;/p&gt;

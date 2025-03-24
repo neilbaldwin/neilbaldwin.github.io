@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>https://neilbaldwin.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
     <lastBuildDate>Sun, 23 Mar 2025 13:38:56 +0000</lastBuildDate>
-    <atom:link href="https://neilbaldwin.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VOLDRED</title>
-      <link>https://neilbaldwin.github.io/projects/voldred/</link>
+      <link>http://localhost:1313/projects/voldred/</link>
       <pubDate>Sun, 09 Mar 2025 12:56:54 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/projects/voldred/</guid>
+      <guid>http://localhost:1313/projects/voldred/</guid>
       <description>&lt;h1 id=&#34;voldred&#34;&gt;VOLDRED&lt;/h1&gt;
 &lt;p&gt;An editor for Volca Drum created in Touch OSC&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="voldred">VOLDRED</h1>
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>2020R</title>
-      <link>https://neilbaldwin.github.io/projects/2020r/</link>
+      <link>http://localhost:1313/projects/2020r/</link>
       <pubDate>Sun, 23 Mar 2025 13:27:29 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/projects/2020r/</guid>
+      <guid>http://localhost:1313/projects/2020r/</guid>
       <description>&lt;h1 id=&#34;2020-r&#34;&gt;2020-R&lt;/h1&gt;
 &lt;p&gt;An randomisation editor for 20202 created in Touch OSC.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="2020-r">2020-R</h1>
@@ -44,9 +44,9 @@
     </item>
     <item>
       <title>MMMSEGUI</title>
-      <link>https://neilbaldwin.github.io/projects/mmmsegui/</link>
+      <link>http://localhost:1313/projects/mmmsegui/</link>
       <pubDate>Sun, 23 Mar 2025 13:38:56 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/projects/mmmsegui/</guid>
+      <guid>http://localhost:1313/projects/mmmsegui/</guid>
       <description>&lt;h1 id=&#34;mmmsegui&#34;&gt;MMMSEGUI&lt;/h1&gt;
 &lt;p&gt;MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&amp;rsquo;s Max platform.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="mmmsegui">MMMSEGUI</h1>
