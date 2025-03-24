@@ -9,18 +9,6 @@
     <managingEditor>neil.baldwin@mac.com (Neil Baldwin)</managingEditor>
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
-    <lastBuildDate>Sun, 09 Mar 2025 12:48:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Post02</title>
-      <link>http://localhost:1313/post02/</link>
-      <pubDate>Sun, 09 Mar 2025 12:48:00 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>http://localhost:1313/post02/</guid>
-      <description>&lt;h1 id=&#34;blog-post-02&#34;&gt;Blog Post 02&lt;/h1&gt;
-&lt;p&gt;This is blog post 02.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h1 id="blog-post-02">Blog Post 02</h1>
-<p>This is blog post 02.</p>
-]]></content:encoded>
-    </item>
   </channel>
 </rss>
