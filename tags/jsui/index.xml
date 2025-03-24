@@ -2,37 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>http://localhost:1313/tags/jsui/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>neil.baldwin@mac.com (Neil Baldwin)</managingEditor>
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
-    <lastBuildDate>Sun, 09 Mar 2025 12:48:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Post02</title>
-      <link>http://localhost:1313/post02/</link>
-      <pubDate>Sun, 09 Mar 2025 12:48:00 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>http://localhost:1313/post02/</guid>
-      <description>&lt;h1 id=&#34;blog-post-02&#34;&gt;Blog Post 02&lt;/h1&gt;
-&lt;p&gt;This is blog post 02.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h1 id="blog-post-02">Blog Post 02</h1>
-<p>This is blog post 02.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Post01</title>
-      <link>http://localhost:1313/post01/</link>
-      <pubDate>Fri, 07 Mar 2025 18:34:59 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>http://localhost:1313/post01/</guid>
-      <description>&lt;h1 id=&#34;blog-post-01&#34;&gt;Blog Post 01&lt;/h1&gt;
-&lt;p&gt;This is blog post 01.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h1 id="blog-post-01">Blog Post 01</h1>
-<p>This is blog post 01.</p>
-]]></content:encoded>
-    </item>
+    <lastBuildDate>Thu, 14 Mar 2024 07:38:13 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/jsui/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Old Blog Post</title>
       <link>http://localhost:1313/old_post/</link>
