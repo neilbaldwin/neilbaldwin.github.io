@@ -32,6 +32,9 @@
 &lt;p&gt;MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&amp;rsquo;s Max platform.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<h1 id="mmmsegui">MMMSEGUI</h1>
 <p>MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&rsquo;s Max platform.</p>
+<figure><img src="/projects/mmmsegui/images/mmmsegui_examples.png">
+</figure>
+
 <h2 id="rationale">Rationale</h2>
 <p>The main objectives for MMMSEGUI were:</p>
 <ul>
@@ -154,6 +157,10 @@
       </tr>
   </tbody>
 </table>
+<p><figure><img src="/projects/mmmsegui/images/mmmsegui.gif" width="70%">
+</figure>
+
+<br>
 
 <div class="callout note">
     <div class="callout-header">
@@ -173,7 +180,7 @@
     </p>
 
 </div>
-
+</p>
 <h2 id="customisation-messages">Customisation Messages</h2>
 <p>Customisation is done via Max message objects. For data type see the <strong>Notes</strong> column. Some error/range checking/clamping is done but I&rsquo;m sure you can break it if you try.</p>
 <table>
