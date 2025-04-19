@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>https://neilbaldwin.github.io/blog/</link>
+    <link>http://localhost:53605/blog/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,6 +10,14 @@
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
     <lastBuildDate>Mon, 24 Mar 2025 20:31:55 +0000</lastBuildDate>
-    <atom:link href="https://neilbaldwin.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53605/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post01</title>
+      <link>http://localhost:53605/post01/</link>
+      <pubDate>Mon, 24 Mar 2025 20:31:55 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
+      <guid>http://localhost:53605/post01/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
   </channel>
 </rss>
