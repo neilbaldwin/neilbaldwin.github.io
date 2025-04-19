@@ -12,28 +12,117 @@
     <lastBuildDate>Fri, 07 Mar 2025 17:57:31 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2020R</title>
-      <link>http://localhost:1313/projects/2020r/</link>
+      <title>2020-R</title>
+      <link>http://localhost:1313/projects/2020-r/</link>
       <pubDate>Sun, 23 Mar 2025 13:27:29 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>http://localhost:1313/projects/2020r/</guid>
-      <description>&lt;h1 id=&#34;2020-r&#34;&gt;2020-R&lt;/h1&gt;
-&lt;p&gt;A randomisation editor for 20202 created in Touch OSC.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h1 id="2020-r">2020-R</h1>
-<p>A randomisation editor for 20202 created in Touch OSC.</p>
+      <guid>http://localhost:1313/projects/2020-r/</guid>
+      <description>A randomisation editor in Touch OSC for dubrussell&amp;rsquo;s &amp;ldquo;2020&amp;rdquo; beat-machine app.</description>
+      <content:encoded><![CDATA[
+<div class="callout tip">
+    <div class="callout-header">
+        
+            <svg class="tip" viewBox="0 0 16 16">
+                <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z">
+                </path>
+            </svg>
+        
+        What is 2020?
+    </div>
+
+    <p class="callout-body">
+        <figure><img src="/projects/2020-r/images/dubrussell2020.png" width="70%">
+</figure>
+<p>2020 is a semi-modular beat-making app created by Yotaro Shuto (dubrussell). In his own words:</p>
+<p><em>&ldquo;2020 is a SEMI MODULAR BEAT-MACHINE. It doesn&rsquo;t offer a traditional timeline view but instead lets you manipulate, randomize, wire, process, and perform beats in real-time, all in a single window. With 2020, you can explore millions of beat patterns on the fly.&rdquo;</em></p>
+
+    </p>
+
+</div>
+
+<h2 id="rationale">Rationale</h2>
+<p>While 2020 is <em>packed</em> full of real-time randomisation, there is no function to generate random presets in the Samplers, Synths and FX. Why would you want to do that? As DUB-Russell says, <em>&ldquo;Don&rsquo;t think, RANDOMISE!&rdquo;</em> (he said &ldquo;BEAT&rdquo; but&hellip;you know&hellip;)</p>
+<h2 id="updates">Updates</h2>
+<p><mark>31-08-2024</mark> Major update: now added PRESETS and MIXER tabs so you can recall presets and change mixer settings as part of performance</p>
+<p><mark>20-08-2024</mark> WARNING: changed behaviour for RESET. Now RESET is a button that resets any selected parameters (it&rsquo;s no longer a selection button)
+19-08-2024 Added support for SLICER (on the TONE group tab). See below for information.
+18-08-2024 Added support for the TONE group: LOOPER1, LOOPER2 and LOOPER3</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<p>First off, if for some reason you&rsquo;ve reached here and you don&rsquo;t have it,  you need <a href="https://2020.dubrussell.com/">2020 Beat Machine</a></p>
+<p>Then you need <a href="https://hexler.net/touchosc">TouchOSC MK2 by Hexler</a></p>
+<p>TouchOSC MK2 added super-powerful LUA scripting which is what 2020-R uses to interact with the 2020 app.</p>
+<p>I&rsquo;m not going to teach you how to install and use Touch OSC. The guides and tutorials on the Hexler website are good.</p>
+<h2 id="interface">Interface</h2>
+<p>
 <figure><img src="images/2020-R%20UI.png">
-</figure>]]></content:encoded>
+</figure>
+
+</p>
+<p>Each of 2020&rsquo;s &ldquo;Groups&rdquo; is organised into tabs and the tabs are named the same way e.g. <code>GRP1</code>, <code>GRP2</code> etc. Within each tab there are the same sub-groups (samplers, instruments etc.) as you find in the 2020 app.</p>
+<p>Within each sub-group there are two sections. On the right-hand side are the Send Controls. Here you can select if you want to send random absolute values (VALUE) or send randomised Probability and Range for the 2020 parameters that support that function. You can also elect to reset parameters back to their default values by selecting the RESET button.</p>
+<p>The remainder of each group section is the Parameter Selection buttons. These are the ones that match the colour of the tab&hellip;and a <em>similar</em> colour to the corresponding Group in 2020) and are loosely organised into parameter types e.g. you&rsquo;ll find all Envelopes grouped in a &ldquo;ENVS&rdquo; group, all LFOs groups in a &ldquo;LFO&rdquo; group etc.</p>
+<h3 id="how-to-use-2020-r">How to use 2020-R</h3>
+<p>You first need to select the parameters you wish to randomise. You can select as many as you like.</p>
+
+<div class="callout tip">
+    <div class="callout-header">
+        
+            <svg class="tip" viewBox="0 0 16 16">
+                <path d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z">
+                </path>
+            </svg>
+        
+        Hidden Toggle Button
+    </div>
+
+    <p class="callout-body">
+        There&rsquo;s a &ldquo;hidden&rdquo; button on each sub-group. You can click/tap on the sub-group name e.g. &ldquo;GRP 1-2 Sampler&rdquo; and it will toggle all of that groups button on/off.
+    </p>
+
+</div>
+
+<p>Then on the right-hand side, select whether you want to send random absolute values (VALUES) or Probability and Range values (RANGE). Or both!</p>
+<p>Then press/click on the RANDOM button to send random values to 2020.</p>
+<p>You can also reset the selected parameters back to their default values by clicking/pressing on the RESET button. Note this behaviour has changed since the 20-08-24 update.</p>
+<p>That&rsquo;s it!</p>
+<h4 id="fx-tab">FX Tab</h4>
+<p>The FX tab is slightly different in that ALL of the FX parameters are grouped together. However there is an additional &lsquo;hidden&rsquo; helper button in each FX type. Press/click on the strip below the grouped parameters to toggle the selection on/off.</p>
+<h4 id="tone-slicer">(TONE) SLICER</h4>
+<p>Controls to randomise parameter for the SLICER group can be found on the TONE tab.</p>
+<p>Most of the control work in exactly the same way as other groups apart from the controls in the SEQ section. Here you&rsquo;ll find switches for STEPS, RES and a radial dial labelled DENSITY</p>
+<p>STEPS will randomise the vertical value of the current steps in the sequence. The DESNITY radial control controls how densely the seqence will be randomised.</p>
+<p>RES (resolution) randomises the number of divisions per step.</p>
+<h3 id="usage">Usage</h3>
+<p>Feel free to use and modify it however you feel/need. You can dig into the script files in the TouchOSC editor but I&rsquo;ve also included the LUA source code as separate files in case you find those useful. The same code is attached to buttons/documents in the TouchOSC project.</p>
+<p>If you find it useful and want to support my work and future updates then you can show your appreciation here:</p>
+
+<h2>Support My Work 🙏</h2>
+
+<p>If you like my work and use it or learn from it, please consider supporting me or just a donation to say thanks:</p>
+
+<a href="https://www.buymeacoffee.com/neilbaldwi3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" class='center bmc' alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+
+
+]]></content:encoded>
     </item>
     <item>
       <title>MMMSEGUI</title>
       <link>http://localhost:1313/projects/mmmsegui/</link>
       <pubDate>Sun, 23 Mar 2025 13:38:56 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
       <guid>http://localhost:1313/projects/mmmsegui/</guid>
-      <description>&lt;h1 id=&#34;mmmsegui&#34;&gt;MMMSEGUI&lt;/h1&gt;
-&lt;p&gt;MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&amp;rsquo;s Max platform.&lt;/p&gt;</description>
-      <content:encoded><![CDATA[<h1 id="mmmsegui">MMMSEGUI</h1>
-<p>MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&rsquo;s Max platform.</p>
-<figure><img src="/projects/mmmsegui/images/mmmsegui_examples.png">
-</figure>
+      <description>MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&amp;rsquo;s Max platform.</description>
+      <content:encoded><![CDATA[
+<h2>Support My Work 🙏</h2>
+
+<p>If you like my work and use it or learn from it, please consider supporting me or just a donation to say thanks:</p>
+
+<a href="https://www.buymeacoffee.com/neilbaldwi3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" class='center bmc' alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+
 
 <h2 id="rationale">Rationale</h2>
 <p>The main objectives for MMMSEGUI were:</p>
@@ -53,11 +142,6 @@
 <li>the ability to set the X, Y and control point of a single node via messages</li>
 </ul>
 <p>For any previous users please read the following section regarding the November 2023 update.</p>
-<h2 id="support-my-work">Support My Work</h2>
-<p>If you like my work and use it or learn from it, please consider supporting me or just a donation to say thanks:</p>
-<figure><a href="https://www.buymeacoffee.com/neilbaldwi3"><img src="/projects/mmmsegui/images/buymeabounty.png" width="30%"></a>
-</figure>
-
 <h2 id="how-can-i-get-mmmsegui">How Can I Get MMMSEGUI?</h2>
 <p>MMMSEGUI is freely available on my Github repository:</p>
 <p><a href="https://github.com/neilbaldwin/mmmsegui">MMMSEGUI Repository</a></p>
@@ -271,9 +355,9 @@
 </table>
 <h3 id="color-messages">Color Messages</h3>
 <p>For the color messages that have the RGBA data type there are 4 values, so your message will look like: <code>[fillcolor $1 $2 $3 $4]</code> where $1 is the red value, $2 is the green value, $3 is the blue value and $4 is the alpha value. This is standard RGBA format in Max and is the output from <code>[colorpicker @compatibility 0]</code> or <code>[swatch]</code> etc.</p>
-<h4 id="auto-output">Auto Output</h4>
-<p>Auto Output is on by default (turn it off with <code>[autooutput 0]</code>)which means anything you do that changes the nodes, curves or timescale will cause MMMSEGUI to output the current graph as a <code>curve~</code> formatted list. If you set Auto Output to off, nothing will be output from MMMSEGUI until you send a <code>bang</code> message to its inlet. The only exception to this is the <code>getvalue</code> and <code>getvalueattime</code> commands (see Command Messages), for obvious reasons. Sending messages to MMMSEGUI that only change the graphical <em>look</em> of the graph will not cause output of node list.</p>
-<h3 id="phasor-mode">Phasor Mode</h3>
+<h3 id="auto-output">Auto Output</h3>
+<p>Auto Output is on by default (turn it off with <code>[autooutput 0]</code>)which means anything you do that changes the nodes, curves or timescale will cause MMMSEGUI to output the current graph as a <code>curve~</code> formatted list. If you set Auto Output to off, nothing will be output from MMMSEGUI until you send a <code>bang</code> message to its inlet. The only exception to this is the <code>getvalue</code> and <code>getvalueattime</code> commands (see <a href="#command-messages">Command Messages</a>), for obvious reasons. Sending messages to MMMSEGUI that only change the graphical <em>look</em> of the graph will not cause output of node list.</p>
+<h2 id="phasor-mode">Phasor Mode</h2>
 <p>&ldquo;Phasor Mode&rdquo; is a feature requested by a few members of the Max Discord channel for use with the <code>phasor~</code>
 object. In Phasor Mode there are a few changes and restrictions to the way MMMSEGUI works:</p>
 
@@ -299,7 +383,7 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 
 </div>
 
-<h4 id="selecting-phasor-mode">Selecting Phasor Mode</h4>
+<h3 id="selecting-phasor-mode">Selecting Phasor Mode</h3>
 <p>The message <code>setphasormode</code> is used to turn Phasor Mode on/off. 0 turns it off (default) and 1 turns it on.</p>
 <p>However you must also then use the <code>clear</code> message to reset the graph which means if you intend to use Phasor Mode on a MMMSEGUI object, select Phasor Mode first, then clear the graph before setting nodes etc.</p>
 <p>Clearing the graph is necessary so that the graph starts with nodes that respect the restrictions of Phasor Mode. I thought about just adding some validation code so that you could switch between Phasor Mode on/off but that would also modify your graph. Clearing the graph is simpler and easier.</p>
@@ -385,7 +469,7 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 
 </div>
 
-<h4 id="graph">graph</h4>
+<h4 id="graph">[graph]</h4>
 <p>The first command, <code>graph</code>, lets you create a new graph with normalised values:</p>
 
 
@@ -400,7 +484,7 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 <li><code>cn</code> is the  normalised curve value, 0.0 to 1.0, 0.5 is the middle (linear curve)</li>
 </ul>
 <p>This data form parallels the MMMSEGUI internal data form. It&rsquo;s a more simple structure than <code>graphfromcurve</code> as it&rsquo;s easier to visualise and because the X values are normalised you can define a graph independent of it&rsquo;s <code>timeScale</code> setting.</p>
-<h4 id="graphfromcurve">graphfromcurve</h4>
+<h4 id="graphfromcurve">[graphfromcurve]</h4>
 <p>You can also send MMMSEGUI a <code>[graphfromcurve]</code> message to define a graph numerically but this time the data format is exactly that of MMMSEGUI output (the same format as input message to Max&rsquo;s <code>[curve~]</code> object).</p>
 
 
@@ -460,10 +544,18 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 </div>
 
 <h2 id="inlets-and-outlets">Inlets and Outlets</h2>
-<p><code>inlet 1</code> handles all the command and parameter messages</p>
-<p><code>outlet 1</code> outputs a list of nodes and delta times from the current graph shape</p>
-<p><code>outlet 2</code> is used to retrieve a single Y value at a point in time</p>
-<p>See <strong>Command Messages</strong> for details on the various commands.</p>
+<ul>
+<li>
+<p><code>[inlet 1]</code> handles all the command and parameter messages</p>
+</li>
+<li>
+<p><code>[outlet 1]</code> outputs a list of nodes and delta times from the current graph shape</p>
+</li>
+<li>
+<p><code>[outlet 2]</code> is used to retrieve a single Y value at a point in time</p>
+</li>
+</ul>
+<p>See <a href="#command-messages">Command Messages</a> for details on the various commands.</p>
 <h2 id="using-the-output-from-mmmsegui">Using the Output from MMMSEGUI</h2>
 <p>As already mentioned, the output is deliberately formatted as a list that will be immediately accepted by a <code>[curve~]</code> object.</p>
 <p>The output format is a <em>trio</em> of parameters per curve:</p>
@@ -578,7 +670,8 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 <p><strong>Mouse-over Highlighting</strong>
 <code>setNodeHighlighting()</code>, <code>setCurveHighlighting()</code></p>
 <p><strong>Node Visibility</strong>
-<code>setAutoHideNodes()</code>,<code>setNodesVisible()</code></p>]]></content:encoded>
+<code>setAutoHideNodes()</code>,<code>setNodesVisible()</code></p>
+]]></content:encoded>
     </item>
     <item>
       <title>Post01</title>

@@ -12,8 +12,7 @@
 />
 <meta
   name="description"
-  content="MMMSEGUI
-MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&rsquo;s Max platform."
+  content="MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&rsquo;s Max platform."
 />
 <meta
   name="keywords"
@@ -28,7 +27,7 @@ MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cyclin
 <meta property="og:url" content="http://localhost:1313/projects/mmmsegui/">
   <meta property="og:site_name" content="USE HEARING PROTECTION">
   <meta property="og:title" content="MMMSEGUI">
-  <meta property="og:description" content="MMMSEGUI MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74’s Max platform.">
+  <meta property="og:description" content="MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74’s Max platform.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="projects">
@@ -43,17 +42,17 @@ MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cyclin
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/projects/mmmsegui/images/mmmsegui_examples.png">
   <meta name="twitter:title" content="MMMSEGUI">
-  <meta name="twitter:description" content="MMMSEGUI MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74’s Max platform.">
+  <meta name="twitter:description" content="MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74’s Max platform.">
 
 
 
 
 
   <meta itemprop="name" content="MMMSEGUI">
-  <meta itemprop="description" content="MMMSEGUI MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74’s Max platform.">
+  <meta itemprop="description" content="MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74’s Max platform.">
   <meta itemprop="datePublished" content="2025-03-23T13:38:56+00:00">
   <meta itemprop="dateModified" content="2025-03-23T13:38:56+00:00">
-  <meta itemprop="wordCount" content="3404">
+  <meta itemprop="wordCount" content="3390">
   <meta itemprop="image" content="http://localhost:1313/projects/mmmsegui/images/mmmsegui_examples.png">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -105,14 +104,31 @@ MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cyclin
     </header>
     <main>
       
-  
-  
-    <details>
-      <summary>Table of Contents</summary>
-      <nav id="TableOfContents">
+    <h1>MMMSEGUI</h1><span class="project-tags">Max</span>
+    <span class="project-tags">JSUI</span>
+    <span class="project-tags">Javascript</span>
+    
+    <p>
+        
+    <p>
+        MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&#39;s Max platform.
+    </p>
+    
+    
+    
+        <a href="/projects/mmmsegui/">
+            <img class="center" src="/projects/mmmsegui/images/mmmsegui_editor.png" width="75%">
+        </a>
+    
+
+
+    </p>
+    
+      <details>
+        <summary>Table of Contents</summary>
+        <nav id="TableOfContents">
   <ul>
     <li><a href="#rationale">Rationale</a></li>
-    <li><a href="#support-my-work">Support My Work</a></li>
     <li><a href="#how-can-i-get-mmmsegui">How Can I Get MMMSEGUI?</a></li>
     <li><a href="#important---major-update-and-refactoring-november-2023">Important - Major Update and Refactoring November 2023</a></li>
     <li><a href="#updates">Updates</a></li>
@@ -122,7 +138,12 @@ MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cyclin
     <li><a href="#customisation-messages">Customisation Messages</a>
       <ul>
         <li><a href="#color-messages">Color Messages</a></li>
-        <li><a href="#phasor-mode">Phasor Mode</a></li>
+        <li><a href="#auto-output">Auto Output</a></li>
+      </ul>
+    </li>
+    <li><a href="#phasor-mode">Phasor Mode</a>
+      <ul>
+        <li><a href="#selecting-phasor-mode">Selecting Phasor Mode</a></li>
       </ul>
     </li>
     <li><a href="#command-messages">Command Messages</a>
@@ -143,13 +164,19 @@ MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cyclin
     <li><a href="#parameter-style-customisation">@parameter Style Customisation</a></li>
   </ul>
 </nav>
-    </details>
-  
+      </details>
+    
   <content>
-    <h1 id="mmmsegui">MMMSEGUI</h1>
-<p>MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&rsquo;s Max platform.</p>
-<figure><img src="/projects/mmmsegui/images/mmmsegui_examples.png">
-</figure>
+    
+<h2>Support My Work 🙏</h2>
+
+<p>If you like my work and use it or learn from it, please consider supporting me or just a donation to say thanks:</p>
+
+<a href="https://www.buymeacoffee.com/neilbaldwi3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-yellow.png" class='center bmc' alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+
+
+
 
 <h2 id="rationale">Rationale</h2>
 <p>The main objectives for MMMSEGUI were:</p>
@@ -169,11 +196,6 @@ MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cyclin
 <li>the ability to set the X, Y and control point of a single node via messages</li>
 </ul>
 <p>For any previous users please read the following section regarding the November 2023 update.</p>
-<h2 id="support-my-work">Support My Work</h2>
-<p>If you like my work and use it or learn from it, please consider supporting me or just a donation to say thanks:</p>
-<figure><a href="https://www.buymeacoffee.com/neilbaldwi3"><img src="/projects/mmmsegui/images/buymeabounty.png" width="30%"></a>
-</figure>
-
 <h2 id="how-can-i-get-mmmsegui">How Can I Get MMMSEGUI?</h2>
 <p>MMMSEGUI is freely available on my Github repository:</p>
 <p><a href="https://github.com/neilbaldwin/mmmsegui">MMMSEGUI Repository</a></p>
@@ -387,9 +409,9 @@ MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cyclin
 </table>
 <h3 id="color-messages">Color Messages</h3>
 <p>For the color messages that have the RGBA data type there are 4 values, so your message will look like: <code>[fillcolor $1 $2 $3 $4]</code> where $1 is the red value, $2 is the green value, $3 is the blue value and $4 is the alpha value. This is standard RGBA format in Max and is the output from <code>[colorpicker @compatibility 0]</code> or <code>[swatch]</code> etc.</p>
-<h4 id="auto-output">Auto Output</h4>
-<p>Auto Output is on by default (turn it off with <code>[autooutput 0]</code>)which means anything you do that changes the nodes, curves or timescale will cause MMMSEGUI to output the current graph as a <code>curve~</code> formatted list. If you set Auto Output to off, nothing will be output from MMMSEGUI until you send a <code>bang</code> message to its inlet. The only exception to this is the <code>getvalue</code> and <code>getvalueattime</code> commands (see Command Messages), for obvious reasons. Sending messages to MMMSEGUI that only change the graphical <em>look</em> of the graph will not cause output of node list.</p>
-<h3 id="phasor-mode">Phasor Mode</h3>
+<h3 id="auto-output">Auto Output</h3>
+<p>Auto Output is on by default (turn it off with <code>[autooutput 0]</code>)which means anything you do that changes the nodes, curves or timescale will cause MMMSEGUI to output the current graph as a <code>curve~</code> formatted list. If you set Auto Output to off, nothing will be output from MMMSEGUI until you send a <code>bang</code> message to its inlet. The only exception to this is the <code>getvalue</code> and <code>getvalueattime</code> commands (see <a href="#command-messages">Command Messages</a>), for obvious reasons. Sending messages to MMMSEGUI that only change the graphical <em>look</em> of the graph will not cause output of node list.</p>
+<h2 id="phasor-mode">Phasor Mode</h2>
 <p>&ldquo;Phasor Mode&rdquo; is a feature requested by a few members of the Max Discord channel for use with the <code>phasor~</code>
 object. In Phasor Mode there are a few changes and restrictions to the way MMMSEGUI works:</p>
 
@@ -415,7 +437,7 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 
 </div>
 
-<h4 id="selecting-phasor-mode">Selecting Phasor Mode</h4>
+<h3 id="selecting-phasor-mode">Selecting Phasor Mode</h3>
 <p>The message <code>setphasormode</code> is used to turn Phasor Mode on/off. 0 turns it off (default) and 1 turns it on.</p>
 <p>However you must also then use the <code>clear</code> message to reset the graph which means if you intend to use Phasor Mode on a MMMSEGUI object, select Phasor Mode first, then clear the graph before setting nodes etc.</p>
 <p>Clearing the graph is necessary so that the graph starts with nodes that respect the restrictions of Phasor Mode. I thought about just adding some validation code so that you could switch between Phasor Mode on/off but that would also modify your graph. Clearing the graph is simpler and easier.</p>
@@ -501,7 +523,7 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 
 </div>
 
-<h4 id="graph">graph</h4>
+<h4 id="graph">[graph]</h4>
 <p>The first command, <code>graph</code>, lets you create a new graph with normalised values:</p>
 
 
@@ -516,7 +538,7 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 <li><code>cn</code> is the  normalised curve value, 0.0 to 1.0, 0.5 is the middle (linear curve)</li>
 </ul>
 <p>This data form parallels the MMMSEGUI internal data form. It&rsquo;s a more simple structure than <code>graphfromcurve</code> as it&rsquo;s easier to visualise and because the X values are normalised you can define a graph independent of it&rsquo;s <code>timeScale</code> setting.</p>
-<h4 id="graphfromcurve">graphfromcurve</h4>
+<h4 id="graphfromcurve">[graphfromcurve]</h4>
 <p>You can also send MMMSEGUI a <code>[graphfromcurve]</code> message to define a graph numerically but this time the data format is exactly that of MMMSEGUI output (the same format as input message to Max&rsquo;s <code>[curve~]</code> object).</p>
 
 
@@ -576,10 +598,18 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 </div>
 
 <h2 id="inlets-and-outlets">Inlets and Outlets</h2>
-<p><code>inlet 1</code> handles all the command and parameter messages</p>
-<p><code>outlet 1</code> outputs a list of nodes and delta times from the current graph shape</p>
-<p><code>outlet 2</code> is used to retrieve a single Y value at a point in time</p>
-<p>See <strong>Command Messages</strong> for details on the various commands.</p>
+<ul>
+<li>
+<p><code>[inlet 1]</code> handles all the command and parameter messages</p>
+</li>
+<li>
+<p><code>[outlet 1]</code> outputs a list of nodes and delta times from the current graph shape</p>
+</li>
+<li>
+<p><code>[outlet 2]</code> is used to retrieve a single Y value at a point in time</p>
+</li>
+</ul>
+<p>See <a href="#command-messages">Command Messages</a> for details on the various commands.</p>
 <h2 id="using-the-output-from-mmmsegui">Using the Output from MMMSEGUI</h2>
 <p>As already mentioned, the output is deliberately formatted as a list that will be immediately accepted by a <code>[curve~]</code> object.</p>
 <p>The output format is a <em>trio</em> of parameters per curve:</p>
@@ -695,9 +725,8 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
 <code>setNodeHighlighting()</code>, <code>setCurveHighlighting()</code></p>
 <p><strong>Node Visibility</strong>
 <code>setAutoHideNodes()</code>,<code>setNodesVisible()</code></p>
+
   </content>
-  
-  
 
     </main>
     <footer>
