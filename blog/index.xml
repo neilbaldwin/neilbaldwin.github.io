@@ -11,5 +11,13 @@
     <copyright>(C) Neil Baldwin</copyright>
     <lastBuildDate>Mon, 24 Mar 2025 20:31:55 +0000</lastBuildDate>
     <atom:link href="https://neilbaldwin.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post01</title>
+      <link>https://neilbaldwin.github.io/post01/</link>
+      <pubDate>Mon, 24 Mar 2025 20:31:55 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
+      <guid>https://neilbaldwin.github.io/post01/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
   </channel>
 </rss>
