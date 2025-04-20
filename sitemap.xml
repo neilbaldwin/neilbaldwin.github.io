@@ -2,24 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:53605/projects/2020-r/</loc>
-    <lastmod>2025-03-23T13:27:29+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53605/projects/mmmsegui/</loc>
-    <lastmod>2025-03-23T13:38:56+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53605/blog/</loc>
+    <loc>https://neilbaldwin.github.io/blog/</loc>
     <lastmod>2025-03-24T20:31:55+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:53605/post01/</loc>
-    <lastmod>2025-03-24T20:31:55+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53605/projects/</loc>
-    <lastmod>2025-03-09T16:47:27+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53605/</loc>
-    <lastmod>2025-03-07T17:57:31+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:53605/tags/</loc>
+    <loc>https://neilbaldwin.github.io/tags/</loc>
   </url>
 </urlset>
