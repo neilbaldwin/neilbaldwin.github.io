@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>USE HEARING PROTECTION</title>
-    <link>http://localhost:53605/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on USE HEARING PROTECTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -10,12 +10,12 @@
     <webMaster>neil.baldwin@mac.com (Neil Baldwin)</webMaster>
     <copyright>(C) Neil Baldwin</copyright>
     <lastBuildDate>Fri, 07 Mar 2025 17:57:31 +0000</lastBuildDate>
-    <atom:link href="http://localhost:53605/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2020-R</title>
-      <link>http://localhost:53605/projects/2020-r/</link>
+      <link>http://localhost:1313/projects/2020-r/</link>
       <pubDate>Sun, 23 Mar 2025 13:27:29 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>http://localhost:53605/projects/2020-r/</guid>
+      <guid>http://localhost:1313/projects/2020-r/</guid>
       <description>A randomisation editor in Touch OSC for dubrussell&amp;rsquo;s &amp;ldquo;2020&amp;rdquo; beat-machine app.</description>
       <content:encoded><![CDATA[
 <div class="callout tip">
@@ -109,9 +109,9 @@
     </item>
     <item>
       <title>MMMSEGUI</title>
-      <link>http://localhost:53605/projects/mmmsegui/</link>
+      <link>http://localhost:1313/projects/mmmsegui/</link>
       <pubDate>Sun, 23 Mar 2025 13:38:56 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>http://localhost:53605/projects/mmmsegui/</guid>
+      <guid>http://localhost:1313/projects/mmmsegui/</guid>
       <description>MMMSEGUI is a multi-segment graph editor written in JS/JSUI/MGraphics for Cycling 74&amp;rsquo;s Max platform.</description>
       <content:encoded><![CDATA[
 <h2>Support My Work 🙏</h2>
@@ -241,10 +241,9 @@
       </tr>
   </tbody>
 </table>
-<p><figure><img src="/projects/mmmsegui/images/mmmsegui.gif" width="70%">
+<figure><img src="/projects/mmmsegui/images/mmmsegui.gif" width="70%">
 </figure>
 
-<br>
 
 <div class="callout note">
     <div class="callout-header">
@@ -264,7 +263,7 @@
     </p>
 
 </div>
-</p>
+
 <h2 id="customisation-messages">Customisation Messages</h2>
 <p>Customisation is done via Max message objects. For data type see the <strong>Notes</strong> column. Some error/range checking/clamping is done but I&rsquo;m sure you can break it if you try.</p>
 <table>
@@ -675,9 +674,9 @@ object. In Phasor Mode there are a few changes and restrictions to the way MMMSE
     </item>
     <item>
       <title>Post01</title>
-      <link>http://localhost:53605/post01/</link>
+      <link>http://localhost:1313/post01/</link>
       <pubDate>Mon, 24 Mar 2025 20:31:55 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>http://localhost:53605/post01/</guid>
+      <guid>http://localhost:1313/post01/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
