@@ -12,12 +12,45 @@
     <lastBuildDate>Mon, 24 Mar 2025 20:31:55 +0000</lastBuildDate>
     <atom:link href="https://neilbaldwin.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Post01</title>
-      <link>https://neilbaldwin.github.io/post01/</link>
+      <title>Welcome to USE HEARING PROTECTION</title>
+      <link>https://neilbaldwin.github.io/welcome/</link>
       <pubDate>Mon, 24 Mar 2025 20:31:55 +0000</pubDate><author>neil.baldwin@mac.com (Neil Baldwin)</author>
-      <guid>https://neilbaldwin.github.io/post01/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <guid>https://neilbaldwin.github.io/welcome/</guid>
+      <description>&lt;h1 id=&#34;is-this-marmot-audio&#34;&gt;Is this Marmot Audio?&lt;/h1&gt;
+&lt;p&gt;Good question! In spirit: yes.&lt;/p&gt;
+&lt;p&gt;Just before closing down my old website I posted this which explains things a little more:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The time has come to close the shutters on Marmot Audio. I&amp;rsquo;ve been neglecting it for some time now. Apologies to any potential customers who might have emailed me in the last few months and received no reply: that was uncharacteristically rude of me and I hope you found help elsewhere with your projects.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="is-this-marmot-audio">Is this Marmot Audio?</h1>
+<p>Good question! In spirit: yes.</p>
+<p>Just before closing down my old website I posted this which explains things a little more:</p>
+<blockquote>
+<p>The time has come to close the shutters on Marmot Audio. I&rsquo;ve been neglecting it for some time now. Apologies to any potential customers who might have emailed me in the last few months and received no reply: that was uncharacteristically rude of me and I hope you found help elsewhere with your projects.</p>
+<p>There&rsquo;s no drama. I took a full-time job at a brewery last year and since then I&rsquo;m running the place. As such it&rsquo;s demanding much more of my time and more of my physical and mental energy. Something had to give.</p>
+<p>I&rsquo;d like to express gratitude and humility to everyone who trusted (and often confounded) me with their projects. I got to work on some amazing audio gear and made many friends along the way.</p>
+<p>I&rsquo;m sure some of you have stumbled across my recent adventures in Max and OSC. I&rsquo;m still pretty active in those areas (handy to be able to do your projects on a laptop!). I&rsquo;m going to consolidate (and archive) a bunch of stuff and you&rsquo;ll be able to find it all on a new website which is hosted on my Github repository.</p></blockquote>
+<p>Which brings us right here!</p>
+<h3 id="so-what-is-use-hearing-protection-then">So what is USE HEARING PROTECTION then?</h3>
+<p>Truthfully it&rsquo;s my attempt to try to consolidate all the little bits of me, current and archived projects, into one place on the internet. If that sounds awfully vain, believe me that it&rsquo;s selfishness masquerading as altruism.</p>
+<h3 id="no-i-mean-why-use-hearing-protection">No, I mean <em>why</em> USE HEARING PROTECTION?</h3>
+<p>Well, from a safety and the long-term health of your hearing point-of-view, it&rsquo;s just some good advice.</p>
+<p>There&rsquo;s a much longer story about growing up in Manchester in the 80s and how that is a deep part of my creative psyche. The short answer is it&rsquo;s inspired by Peter Saville&rsquo;s iconic FAC 1 gig posters from his when he was the designer for Factory Records. Here&rsquo;s the design used on the 2019 box-set &ldquo;Use Hearing Protection: Factory Records 1978-79&rdquo;:</p>
+<figure class="center"><a href="https://pitchfork.com/reviews/albums/various-artists-use-hearing-protection-factory-records-1978-79/" target="blank"><img src="/welcome/uep_boxset.png"
+    alt="Use Hearing Protection: Factory Records 1978-79" width="75%"></a><figcaption>
+      <p>Use Hearing Protection: Factory Records 1978-79</p>
+    </figcaption>
+</figure>
+
+<p>And here&rsquo;s a photo of one of the original FAC 1 posters:</p>
+<figure class="center"><a href="https://www.mdmarchive.co.uk/artefact/17033/The-Durutti-Column-Jilted-John-Joy-Division-Manicured-Noise-Tiller-Boys-Factory-Club-%28see-also-Russell-Club%29-Peter-Saville-Poster-1978" target="blank"><img src="/welcome/fac_1.png"
+    alt="Factory gig poster, 1978" width="75%"></a><figcaption>
+      <p>Factory gig poster, 1978</p>
+    </figcaption>
+</figure>
+
+<h3 id="now-what">Now what?</h3>
+<p>Expect sporadic updates and long periods of neglect. Like most of my other projects. I make no apologies.</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>

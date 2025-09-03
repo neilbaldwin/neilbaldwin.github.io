@@ -1,0 +1,147 @@
+==========================
+ 'droNES' by Neil Baldwin
+==========================
+
+*** FOR THOSE WHO JUST WANT TO JUMP STRAIGHT IN! ***
+
+CONTROLS
+========
+
+Global
+------
+
+To move from the Synthesis area to the Sequencer area (and vice versa)
+- hold [SELECT] and tap [UP] or [DOWN]
+
+Synthesis
+---------
+
+To move around
+- press/hold [UP], [DOWN], [LEFT] or [RIGHT]
+
+To alter a value by +1/-1
+- hold [B] and tap/hold [UP]/[DOWN]
+
+To alter a value by +10/-10
+- hold [B] and tap/hold [LEFT]/[RIGHT]
+
+To randomise a value
+- hold [B] and tap [A]
+
+To toggle Phase Reset (cursor must be on SQ1 or SQ2 row)
+- hold [SELECT] and tap [LEFT]/[RIGHT]
+
+To toggle voice on/off (can be anywhere in Synthesis area)
+- hold [START] and tap
+  - [LEFT]  to toggle SQ1
+  - [UP]    to toggle SQ2
+  - [RIGHT] to toggle NSE
+  - [DOWN]  to toggle all voices
+
+
+Sequencer
+---------
+To move around
+- press/hold [UP], [DOWN], [LEFT] or [RIGHT]
+
+To alter a parameter lock by +1/-1
+- hold [B] and tap/hold [UP]/[DOWN]
+
+To alter a parameter lock by +10/-10
+- hold [B] and tap/hold [LEFT]/[RIGHT]
+
+To randomise a parameter lock
+- hold [B] and tap [A]
+
+To 'paste' the last parameter lock value
+- tap [B]
+
+To change the destination for the modulation
+- hold [START] then tap [LEFT]/[RIGHT]
+
+To alter the gate for the current step
+- hold [A] and then tap
+  - [DOWN]  for OFF
+  - [UP]    for GATE (ON)
+  - [LEFT]  for RAMP UP
+  - [RIGHT] for RAMP DOWN
+
+To set the end step for a sequencer
+- tap [A]
+
+To alter the playback speed of a sequencer
+- hold [START] then tap/hold [UP]/[DOWN]
+
+To 'resync' the sequencers (start them all from Step 1)
+- hold [SELECT] then tap [START]
+
+
+*** FOR THOSE THAT WANT TO KNOW MORE! ***
+
+
+What is 'droNES'?
+=================
+
+I tried to turn the NES into a drone/noise box by eschewing traditonal and expected sound generation and instead implementing (very) crude frequency modulation (FM) and amplitude modulation (AM) to 3 of the NES's hardware voice: the two square-wave voices and the noise. I deliberately left the triangle voice out of the design because of it's lack of controlable amplitude and it's tendency, when manipulated in such an extremem fashion, to drown out the other 3 voices.
+
+The design of 'droNES' is geared more towards live experementation and exploration so other typical features such as sequencing, pitch and the ability to load/save any kind of settings or parameters are deliberately ignored and avoided.
+
+SYNTHESIS
+=========
+
+Frequency Modulation (FM) is implemented by rapidly alternating between two modifiable pitches at a modifable rate. Amplitude Modulation (AM) is implemented by rapidly alternating between two modifiable amplitudes at a modifiable rate. In essence the modulator signal for both FM and AM in 'droNES' is frequency-controlled square wave. The amplitude of the square-wave modulator is the relative difference between the two pitch frequencies or amplitudes.
+
+Because the entire synthesis runs in a background loop to make the resolution as fast as possible, processing of the FM and AM of each of the 3 voices is a shared resource. What this means is that there is some interplay between the three voices: as you change the modulation speed of one voice it may have a subtle effect on the modulation of the other voices. This adds interesting instability to the 'droNES' synthesis that can be exploited. I also added the possibilty to turn off the processing of each individual voice (or all of them). This not only adds a performance feature but can dramatically effect the resolution of the synthesis, again adding to the instability of the synthesis and making it more interesting to experiment with.
+
+SEQUENCING
+==========
+
+For each voice there is a modulation step sequencer*. Each sequencer has it's own independent speed control and length (1 to 16 steps). There is also a control to resync all 3 sequencers (start all of them from step 1). Each sequencer has 4 different gate events (OFF, ON, RAMP UP, RAMP DOWN) and the output can be fed into 1 of the parameters of each voice. On each step of the sequence you can set the gate type and lock a 12-bit modulation paramter. The modulation parameter has a different effect depending on the gate event type. For the 'OFF' event, there is no sound, therefore modulation is ignored. For 'GATE' the modulation parameter is added to the destinaion parameter, essentially a fixed offset. For 'RAMP UP' and 'RAMP DOWN', the modulation parameter is recursively added to the destination parameter giving you the ability to ramp up/down the synthesis parameters.
+
+(*This is slightly different to the initial video that I published where the ramp shapes controlled a crude amplitude envelope. I have removed that function as the ability to modulate synthesis parameters was way more interesting.)
+
+SCREEN
+======
+
+See the included file 'droNES_screen.png' for a visual guide.
+
+The screen is split into two halves. The top half is concerned with synthesis parameters, the bottom half with the sequencers.
+
+Synthesis Area
+--------------
+
+Each voice (SQ1, SQ2, NSE) has the same 6 parameters:
+
+'FQ 1' - frequency 1
+'FQ 2' - frequency 2
+'FM S' - FM speed
+'A1'   - amplitude 1
+'A2'   - amplitude 2
+'AM S' - AM speed
+
+Phase Reset : "RS"
+
+There is also an extra setting for the two square-wave voices (SQ1, SQ2) - it's labelled 'RS' and has two states, on or off. This setting is to do with the phase reset artefect when modulating the pitch of the square-wave voices. When this setting is 'OFF' (the little graphical switch in the up position), the phase reset is only performed when necessary. When the setting is 'ON' the phase reset happens constantly. It should be noted though that when setting the frequency (FQ1, FQ2), if the left-most digits between the two frequencies are different you will always get the phase reset artefact.
+
+The reason this setting is implemented is that you get very different FM effect depending on it's status. Experiment and see.
+
+On the right-hand side of each block of voice parameters is a green indicator light to let you know if the voice is active or not.
+
+Sequencer Area
+--------------
+
+The three sequencer tracks are represented by 3 rows of 16 cells. Underneath the cells are multi-purpose step indicators. As the sequence plays, a green indicator shows the current playing step. A red indicator shows the current end step for that sequencer.
+
+To the right of the sequencer cells is the modulation parameter display. The first parameter shows the destination for the modualtion parameters:
+
+F1 - frequency 1
+F2 - frequency 2
+FS - FM speed
+A1 - amplitude 1
+A2 - amplitude 2
+AS - AM speed
+
+Each sequencer can only modulate one of the synthesis parameters at any time. You can change the parameter destination on-the-fly as the sequence plays.
+
+The right-most parameter is the current speed of each sequencer.
+
