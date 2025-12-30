@@ -1,77 +1,12 @@
 const BROWSER_JS_T = {
-    nothingFoundForXxx: query => 'Nothing found for \'{query}\''.replace('{query}', query),
+    nothingFoundForXxx: query => 'Nothing found for \'{query}\''.replace('{query}',query),
     showingFeaturedItems: 'Showing featured items',
-    showingXxxResultsForXxx: (count, query) => 'Showing {count} results for \'{query}\''.replace('{count}', count).replace('{query}', query),
-    xxxAndOthers: (xxx, othersLink) => '{xxx} and <a href="{others_link}">others</a>'.replace('{xxx}', xxx).replace('{others_link}', othersLink)
+    showingXxxResultsForXxx: (count,query) => 'Showing {count} results for \'{query}\''.replace('{count}',count).replace('{query}',query),
+    xxxAndOthers: (xxx,othersLink) => '{xxx} and <a href="{others_link}">others</a>'.replace('{xxx}',xxx).replace('{others_link}',othersLink)
 };
 const LABEL_MODE = false;
 const ARTISTS = [];
-const RELEASES = [{
-    
-    coverProcedural: 'cover_120.png?2vaNzmA4K38',
-    title: 'Polyend Tracker Export',
-    tracks: [
-        {
-    
-    
-    number: '1.',
-    title: 'PTP Export Test',
-    url: 'polyend-tracker-export/1/'
-}
-
-    ],
-    url: 'polyend-tracker-export/'
-}
-,
-{
-    
-    cover: 'cover_160.jpg?7dGimnsys7A',
-    title: '5 Days',
-    tracks: [
-        {
-    
-    
-    number: '1.',
-    title: 'One Nine Eight Nine',
-    url: '5-days/1/'
-}
-,
-{
-    
-    
-    number: '2.',
-    title: 'Forever Four Errors',
-    url: '5-days/2/'
-}
-,
-{
-    
-    
-    number: '3.',
-    title: 'Outside',
-    url: '5-days/3/'
-}
-,
-{
-    
-    
-    number: '4.',
-    title: 'Sweaty Hot Robot',
-    url: '5-days/4/'
-}
-,
-{
-    
-    
-    number: '5.',
-    title: 'Closing Ceremony',
-    url: '5-days/5/'
-}
-
-    ],
-    url: '5-days/'
-}
-];
+const RELEASES = [{cover:'cover_160.jpg?g3qwLIeuyDU',title:'TWNTYTWNTY5',tracks:[{cover:'cover_160.jpg?zLdqPHVPUkU',number:'1.',title:'As Scared As Can Be',url:'twntytwnty5/1/'},{cover:'cover_160.jpg?lvDJ-Y7srds',number:'2.',title:'Incubator (V2000)',url:'twntytwnty5/2/'},{cover:'cover_160.jpg?ncxKVDFKayM',number:'3.',title:'Hug a Bastard.',url:'twntytwnty5/3/'},{cover:'cover_160.jpg?AfXEnCRd680',number:'4.',title:'When a Good Man Cries',url:'twntytwnty5/4/'},{cover:'cover_160.jpg?or6JQo-Jx7c',number:'5.',title:'Reframing',url:'twntytwnty5/5/'},{cover:'cover_160.jpg?KpWdm6S5jAI',number:'6.',title:'Land Of The Tyrants',url:'twntytwnty5/6/'},{cover:'cover_160.jpg?geMvLoCreZI',number:'7.',title:'Happy Birthday',url:'twntytwnty5/7/'},{cover:'cover_160.jpg?yktTWd6NEV4',number:'8.',title:'Scams',url:'twntytwnty5/8/'},{cover:'cover_160.jpg?LqT9y6hATKg',number:'9.',title:'my mind is a mountain',url:'twntytwnty5/9/'},{cover:'cover_160.jpg?Au2gTIh5EqE',number:'10.',title:'ELDERBERRY',url:'twntytwnty5/10/'},{cover:'cover_160.jpg?hnw4faqMVV4',number:'11.',title:'off to the ESSO',url:'twntytwnty5/11/'},{cover:'cover_160.jpg?HiJsepscrDQ',number:'12.',title:'Snail Zero',url:'twntytwnty5/12/'},{cover:'cover_160.jpg?kmxZP1Zfg_g',number:'13.',title:'Fuck My Computer',url:'twntytwnty5/13/'},{cover:'cover_160.jpg?vZfxbECc_VU',number:'14.',title:'Chains & Whips',url:'twntytwnty5/14/'},{cover:'cover_160.jpg?-8wEUI13JQY',number:'15.',title:'Break the Jaw',url:'twntytwnty5/15/'},{cover:'cover_160.jpg?DJurlFCyoSw',number:'16.',title:'Psychosis Is Just a Number',url:'twntytwnty5/16/'},{cover:'cover_160.jpg?wKXkRmEFxnQ',number:'17.',title:'Big Dick Energy',url:'twntytwnty5/17/'},{cover:'cover_160.jpg?Ee_5DSQ2-Hc',number:'18.',title:'CPR',url:'twntytwnty5/18/'},{cover:'cover_160.jpg?9Si97MAcv6w',number:'19.',title:'Don’t Fall Asleep',url:'twntytwnty5/19/'},{cover:'cover_160.jpg?ZfwqCQiitFY',number:'20.',title:'I Do And I Don\'t Care',url:'twntytwnty5/20/'},{cover:'cover_160.jpg?wfRAbQXcV6o',number:'21.',title:'RIDING WITH MY GIRLS',url:'twntytwnty5/21/'},{cover:'cover_160.jpg?E7Q7_l4ITwM',number:'22.',title:'Lion',url:'twntytwnty5/22/'},{cover:'cover_160.jpg?lbyIapk9NjM',number:'23.',title:'Neon Signs',url:'twntytwnty5/23/'},{cover:'cover_160.jpg?yy26f07HESE',number:'24.',title:'Doom',url:'twntytwnty5/24/'},{cover:'cover_160.jpg?6ktSNT4QeXU',number:'25.',title:'S P E Y S I D E',url:'twntytwnty5/25/'}],url:'twntytwnty5/'},{coverProcedural:'cover_120.png?KiPwQdkL7JQ',title:'Polyend Tracker Export',tracks:[{number:'1.',title:'PTP Export Test',url:'polyend-tracker-export/1/'}],url:'polyend-tracker-export/'},{cover:'cover_160.jpg?7dGimnsys7A',title:'5 Days',tracks:[{number:'1.',title:'One Nine Eight Nine',url:'5-days/1/'},{number:'2.',title:'Forever Four Errors',url:'5-days/2/'},{number:'3.',title:'Outside',url:'5-days/3/'},{number:'4.',title:'Sweaty Hot Robot',url:'5-days/4/'},{number:'5.',title:'Closing Ceremony',url:'5-days/5/'}],url:'5-days/'}];
 const browser = document.querySelector('#browser');
 const browseButtonFooter = document.querySelector('footer button.browse');
 const browseButtonHeader = document.querySelector('header button.browse');
@@ -221,10 +156,8 @@ for (const release of RELEASES) {
 for (const artist of ARTISTS) {
     const aText = document.createElement('a');
 
-    // The herein iterated artists are all featured artists, that is, artists
-    // with their own page on this faircamp site, therefore we never need to
-    // handle an external url here.
-    aText.href = rootPrefix + artist.url + indexSuffix;
+    const url = artist.externalPage ?? `${rootPrefix}${artist.url}${indexSuffix}`;
+    aText.href = url;
 
     let imageArtist;
     if (artist.image) {
