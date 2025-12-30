@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <author>
+    <name>Various Artists</name>
+</author>
+
+    <generator uri="https://simonrepp.com/faircamp" version="1.7.0">
+        Faircamp 1.7.0 (unknown revision)
+    </generator>
+    <id>http://neilbaldwin.github.io/faircamp/</id>
+    <link href="http://neilbaldwin.github.io/faircamp/feed.atom" rel="self"/>
+    <logo>http://neilbaldwin.github.io/faircamp/feed.jpg?MEM7zS4Ufdw</logo>
+    <subtitle>Some synopsis text. Some synopsis text. Some synopsis text. Some synopsis text. Some synopsis text. Some synopsis text.</subtitle>
+    <title>Various Artists</title>
+    <updated>2025-12-30T20:04:36.850604+00:00</updated>
+    <entry>
+    
+    <id>http://neilbaldwin.github.io/faircamp/5-days/</id>
+    <link href="http://neilbaldwin.github.io/faircamp/5-days/" rel="alternate"/>
+    <title> – 5 Days</title>
+    
+    <updated>2025-12-30T20:04:36.850604+00:00</updated>
+</entry>
+
+<entry>
+    
+    <id>http://neilbaldwin.github.io/faircamp/polyend-tracker-export/</id>
+    <link href="http://neilbaldwin.github.io/faircamp/polyend-tracker-export/" rel="alternate"/>
+    <title> – Polyend Tracker Export</title>
+    
+    <updated>2025-12-30T20:04:36.850604+00:00</updated>
+</entry>
+
+<entry>
+    <author>
+    <name>Various Artists</name>
+    
+</author>
+
+    <id>http://neilbaldwin.github.io/faircamp/twntytwnty5/</id>
+    <link href="http://neilbaldwin.github.io/faircamp/twntytwnty5/" rel="alternate"/>
+    <title>Various Artists – TWNTYTWNTY5</title>
+    
+    <updated>2025-12-30T20:04:36.850604+00:00</updated>
+</entry>
+
+</feed>
