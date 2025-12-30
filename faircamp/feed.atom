@@ -12,14 +12,14 @@
     <logo>http://neilbaldwin.github.io/faircamp/feed.jpg?MEM7zS4Ufdw</logo>
     <subtitle>Some synopsis text. Some synopsis text. Some synopsis text. Some synopsis text. Some synopsis text. Some synopsis text.</subtitle>
     <title>Various Artists</title>
-    <updated>2025-12-30T20:20:55.856014+00:00</updated>
+    <updated>2025-12-30T20:38:38.233154+00:00</updated>
     <entry>
     
     <id>http://neilbaldwin.github.io/faircamp/5-days/</id>
     <link href="http://neilbaldwin.github.io/faircamp/5-days/" rel="alternate"/>
     <title> – 5 Days</title>
     
-    <updated>2025-12-30T20:20:55.856014+00:00</updated>
+    <updated>2025-12-30T20:38:38.233154+00:00</updated>
 </entry>
 
 <entry>
@@ -28,7 +28,7 @@
     <link href="http://neilbaldwin.github.io/faircamp/polyend-tracker-export/" rel="alternate"/>
     <title> – Polyend Tracker Export</title>
     
-    <updated>2025-12-30T20:20:55.856014+00:00</updated>
+    <updated>2025-12-30T20:38:38.233154+00:00</updated>
 </entry>
 
 <entry>
@@ -40,8 +40,8 @@
     <id>http://neilbaldwin.github.io/faircamp/twntytwnty5/</id>
     <link href="http://neilbaldwin.github.io/faircamp/twntytwnty5/" rel="alternate"/>
     <title>Various Artists – TWNTYTWNTY5</title>
-    
-    <updated>2025-12-30T20:20:55.856014+00:00</updated>
+    <summary>A selection of 25 of my favourite tracks from some of my favourite albums of 2025. Enjoy!</summary>
+    <updated>2025-12-30T20:38:38.233154+00:00</updated>
 </entry>
 
 </feed>
